@@ -121,7 +121,7 @@ for(var i = 0; i < moves.length; i++){
       if(aecRover.Y > 10 || aecRover.Y < -10 || aecRover.X > 10 || aecRover < -10){
       console.log("Oopsa! aecRover is off of the griiiiiiiiddd!!!")
       }
-      else if ((aecRover.X-obstacle.X)==1 || (aecRover.Y-obstacle.Y)==1 || (obstacle.X-aecRover.X)==1 || (obstacle.Y-aecRover.Y)==1){
+      else if (((aecRover.X-obstacle.X)==1 && (aecRover.Y-obstacle.Y)==1) || ((obstacle.X-aecRover.X)==1 && (obstacle.Y-aecRover.Y)==1)){
       console.log("aecRover can see an obstacle in front of him.  Please, turn right or left now!")
       }
     }
@@ -132,7 +132,7 @@ for(var i = 0; i < moves.length; i++){
       if(aecRover.Y > 10 || aecRover.Y < -10 || aecRover.X > 10 || aecRover < -10){
       console.log("Oopsa! aecRover is off of the griiiiiiiiddd!!!")
       }
-      else if ((aecRover.X-obstacle.X)==1 || (aecRover.Y-obstacle.Y)==1 || (obstacle.X-aecRover.X)==1 || (obstacle.Y-aecRover.Y)==1){
+      else if (((aecRover.X-obstacle.X)==1 && (aecRover.Y-obstacle.Y)==1) || ((obstacle.X-aecRover.X)==1 && (obstacle.Y-aecRover.Y)==1)){
       console.log("aecRover can see an obstacle in front of him.  Please, turn right or left now!")
       }
     }
@@ -143,7 +143,7 @@ for(var i = 0; i < moves.length; i++){
       if(aecRover.Y > 10 || aecRover.Y < -10 || aecRover.X > 10 || aecRover < -10){
       console.log("Oopsa! aecRover is off of the griiiiiiiiddd!!!")
       }
-      else if ((aecRover.X-obstacle.X)==1 || (aecRover.Y-obstacle.Y)==1 || (obstacle.X-aecRover.X)==1 || (obstacle.Y-aecRover.Y)==1){
+      else if (((aecRover.X-obstacle.X)==1 && (aecRover.Y-obstacle.Y)==1) || ((obstacle.X-aecRover.X)==1 && (obstacle.Y-aecRover.Y)==1)){
       console.log("aecRover can see an obstacle in front of him.  Please, turn right or left now!")
       }
      }
@@ -155,7 +155,7 @@ for(var i = 0; i < moves.length; i++){
       if(aecRover.Y > 10 || aecRover.Y < -10 || aecRover.X > 10 || aecRover.X < -10){
       console.log("Oopsa! aecRover is off of the griiiiiiiiddd!!!")
       }
-      else if ((aecRover.X-obstacle.X)==1 || (aecRover.Y-obstacle.Y)==1 || (obstacle.X-aecRover.X)==1 || (obstacle.Y-aecRover.Y)==1){
+      else if (((aecRover.X-obstacle.X)==1 && (aecRover.Y-obstacle.Y)==1) || ((obstacle.X-aecRover.X)==1 && (obstacle.Y-aecRover.Y)==1)){
       console.log("aecRover can see an obstacle in front of him.  Please, turn right or left now!")
       }
       
