@@ -1,1 +1,1 @@
-![alt text](http://url/to/img.png)
+![alt text](http://i.imgur.com/yeDBBab.jpg)
